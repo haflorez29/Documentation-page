@@ -1,0 +1,42 @@
+body {
+  font-family: 'Playfair Display', serif;
+  text-align: justify;
+}
+
+#navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px; 
+  font-size:80%;
+}
+
+#basics {
+  color: white;
+  text-align: center;
+}
+
+#main-doc {
+  margin: 5% 5% 5% 13%;
+}
+
+hr {
+    border: 1px solid rgb(2, 2, 134);
+}
+
+.main-section {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar, .navbar-toggler {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #main-doc {
+    margin: 5% 5% 5% 20%;
+    font-size: 60%;
+  }
+}
